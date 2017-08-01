@@ -47,5 +47,5 @@ DEVICE="$1"
 
 # Compile the build
 	. build/envsetup.sh
-	lunch du_$DEVICE-userdebug
+	lunch lineage_$DEVICE-userdebug
 	make bacon
